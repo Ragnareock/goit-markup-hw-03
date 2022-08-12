@@ -25,6 +25,13 @@ body {
 }
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .logo {
     color:var(--accent-color);
@@ -73,12 +80,16 @@ body {
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-        text-align: center;
         letter-spacing: 0.06em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .hero {
     background-color: var(--secondary-bg-color);
+    text-align: center;
+        padding-top: 200px;
+        padding-bottom: 200px;
 }
 /* section */
 .section-title {
@@ -87,6 +98,8 @@ body {
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 /* features */
 .feature-list .title {
@@ -94,6 +107,16 @@ body {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.feature-list p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.section.features {
+    padding-top: 70px;
+    padding-bottom: 94px;
 }
 /* team */
 .team-list .team {
@@ -112,6 +135,10 @@ body {
 }
 .section.team {
         background-color: var(--primary-bg-color);
+}
+.section.activity {
+    padding-top: 0;
+    padding-bottom: 94px;
 }
 /* footer */
 .site-footer .map-link {
@@ -144,6 +171,11 @@ button {
     color:var(--title-text-color);
     background-color:var(--primary-bg-color);
     border-color:var(--primary-bg-color);
+    border-radius: 4px;
+    padding: 10px 32px;
+    display: inline-block;
+    min-width: 216px;
+    text-align: center;
 }
 .button.primary {
     color: var(--primary-white-color);
