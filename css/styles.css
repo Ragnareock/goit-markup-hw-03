@@ -29,6 +29,8 @@ body {
     margin: 0;
 }
 .container {
+    margin-left: auto;
+    margin-right: auto;
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
@@ -82,14 +84,13 @@ body {
         line-height: 1.36;
         letter-spacing: 0.06em;
     text-transform: uppercase;
+
     margin-top: 0;
     margin-bottom: 30px;
 }
 .hero {
     background-color: var(--secondary-bg-color);
     text-align: center;
-        padding-top: 200px;
-        padding-bottom: 200px;
 }
 /* section */
 .section-title {
@@ -98,8 +99,17 @@ body {
         font-size: 36px;
         line-height: 1.17;
         text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
+
+        margin-top: 0;
+        margin-bottom: 50px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section.make {
+    padding-top: 0;
+    padding-bottom: 94px;
 }
 /* features */
 .feature-list .title {
@@ -107,16 +117,13 @@ body {
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
-    margin-top: 0;
-    margin-bottom: 10px;
+
+        margin-top: 0;
+        margin-bottom: 10px;
 }
 .feature-list p {
     margin-top: 0;
     margin-bottom: 0;
-}
-.section.features {
-    padding-top: 70px;
-    padding-bottom: 94px;
 }
 /* team */
 .team-list .team {
@@ -126,6 +133,13 @@ body {
         line-height: 1.19;
         text-align: center;
     background-color:var(--primary-white-color);
+
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.team-list p {
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 .team-list .profession {
         font-size: 16px;
@@ -135,10 +149,9 @@ body {
 }
 .section.team {
         background-color: var(--primary-bg-color);
-}
-.section.activity {
-    padding-top: 0;
-    padding-bottom: 94px;
+        
+        padding-top: 94px;
+        padding-bottom: 94px;
 }
 /* footer */
 .site-footer .map-link {
@@ -161,6 +174,9 @@ body {
 }
 .down {
     background-color: var(--secondary-bg-color);
+
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 /* button */
 button {
@@ -171,11 +187,8 @@ button {
     color:var(--title-text-color);
     background-color:var(--primary-bg-color);
     border-color:var(--primary-bg-color);
-    border-radius: 4px;
-    padding: 10px 32px;
+
     display: inline-block;
-    min-width: 216px;
-    text-align: center;
 }
 .button.primary {
     color: var(--primary-white-color);
@@ -188,6 +201,10 @@ button {
         text-align: center;
         letter-spacing: 0.06em;
     cursor: pointer;
+
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 216px;
 }
 /* portfolio */
 .button.secondary {
@@ -198,6 +215,10 @@ button {
         line-height: 1.62;
         text-align: center;
     cursor: pointer;
+
+    border-radius: 4px;
+    padding: 6px 22px;
+    min-width: 73px;
 }
 .button.secondary:hover,
 .button.secondary:focus {
@@ -211,8 +232,16 @@ button {
         font-size: 18px;
         line-height: 2;    
         letter-spacing: 0.06em;
+
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 .list .product {
         font-size: 16px;
         line-height: 1.87;
+}
+.section .hide {
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: 2px solid tomato;
 }
