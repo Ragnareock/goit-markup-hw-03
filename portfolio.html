@@ -7,30 +7,33 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
  <!--Шапка сайту-->
 <header>
-    <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
-    <nav>
-        <ul class="site-nav list">
-            <li><a href="./index.html" class="link">Студія</a></li>
-            <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-            <li><a href="" class="link">Контакти</a></li>
+    <div class="container">
+        <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
+        <nav>
+            <ul class="site-nav list">
+                <li><a href="./index.html" class="link ">Студія</a></li>
+                <li><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+                <li><a href="" class="link">Контакти</a></li>
+            </ul>
+        </nav>
+        <ul class="contact-info list">
+            <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
         </ul>
-    </nav>
-    <ul class="contact-info list">
-        <li><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a></li>
-    </ul>
+    </div>
 </header>
  <!--Герой-->
 <main>
-    <section>
-        <h1>Портфоліо</h1>
+    <section class="section container">
+        <h1 class="hide">Портфоліо</h1>
     <ul class="filter list">
-        <li><button type="button" class="button secondary">Все</button></li>
+        <li><button type="button" class="button secondary">Усі</button></li>
         <li><button type="button" class="button secondary">Веб-сайти</button></li>
         <li><button type="button" class="button secondary">Додатки</button></li>
         <li><button type="button" class="button secondary">Дизайн</button></li>
@@ -80,13 +83,16 @@
 </main>
  <!--Підвал сайту-->
 <footer class="down">
-    <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
-    <address>
-        <ul class="site-footer list">
-            <li><a href="https://goo.gl/maps/UnmmoopjUjEERXCH8" target="_blank" rel="noopener noreferrer" class="map-link">м. Київ, пр-т Лесі Українки, 26</a></li>
-            <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
-            <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
-        </ul>
+    <div class="container">
+        <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a>
+        <address>
+            <ul class="site-footer list">
+                <li><a href="https://goo.gl/maps/UnmmoopjUjEERXCH8" target="_blank" rel="noopener noreferrer"
+                        class="map-link">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li><a href="mailto:info@example.com" class="link">info@example.com</a></li>
+                <li><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+            </ul>
+    </div>
     </address>
 </footer>
 </body>
