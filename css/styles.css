@@ -18,6 +18,11 @@
     --border-header-color: #ECECEC;
     --border-portfolio-color: #EEEEEE;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body {
         background-color: var(--primary-white-color);
         color: var(--primary-text-color);
@@ -351,6 +356,7 @@ button {
 
 
 .list .border-project {
+ 
     /* Встановить стилі правої рамки */
         border-right-width: 5px;
         border-right-style: dotted;
