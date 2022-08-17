@@ -213,6 +213,7 @@ header {
   background-color: var(--primary-white-color);
 
   margin-bottom: 10px;
+
   display: flex;
   justify-content: center;
 }
@@ -226,6 +227,9 @@ header {
   line-height: 1.19;
   text-align: center;
   background-color: var(--primary-white-color);
+
+  display: flex;
+  justify-content: center;
 }
 .section.team {
   background-color: var(--primary-bg-color);
@@ -284,26 +288,20 @@ header {
 /* button */
 button {
   font-family: inherit;
-  text-decoration: none;
-  border-radius: 4px;
-}
-.button {
-  color: var(--title-text-color);
-  background-color: var(--primary-bg-color);
-  border-color: var(--primary-bg-color);
   display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  border: 0;
+  border-radius: 4px;
 }
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
-  cursor: pointer;
 
   padding: 10px 32px;
   min-width: 216px;
@@ -315,8 +313,6 @@ button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-align: center;
-  cursor: pointer;
 
   padding: 6px 22px;
   min-width: 73px;
